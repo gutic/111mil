@@ -29,11 +29,11 @@ public class Test {
             System.out.println("total a pagar al trabajador " + i + " es =  "  + horas*500);
         }
         */   
-         System.out.print("ingrese la nota");
+         System.out.print("ingrese la nota, 0 para salir");
          nota = teclado.nextInt();
          
          while(nota != 0){
-             System.out.print("ingrese la nota");
+             System.out.print("ingrese la nota, 0 para salir");
              if (nota >= 1 && nota <= 10){
                 sumatoria += nota;
                 cant +=1;
