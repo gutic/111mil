@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package test;
 
 import java.util.Scanner;
@@ -43,8 +39,8 @@ public class Test {
                 System.out.print("Dato invalido");
             }
         }
-        System.out.print("El promedio es  =  " + sumatoria/cant);
-                
+        //System.out.print("El promedio es  =  " + sumatoria/cant);
+        Test2.main("El promedio es  =  " + sumatoria/cant);
     }
     
 }
