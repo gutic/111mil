@@ -40,7 +40,7 @@ public class Test {
             }
         }
         //System.out.print("El promedio es  =  " + sumatoria/cant);
-        asd.main(args);
+        //asd.main(args);
         Test2.main("El promedio es  =  " + sumatoria/cant);
     }
     
